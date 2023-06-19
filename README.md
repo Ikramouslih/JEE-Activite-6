@@ -7,15 +7,15 @@ Le but de cette activite est de reprendre l'exemple de la démo pour maitriser l
 1. Créer un projet Angular avec la commande `ng new my-angular-project`.
 2. Créer une barre de navigation sur le composant App.
 3. Créer le modele 'Product' avec les champs suivants:
-       - id de type number,
-       - name de type String,
-       - price de type number,
-       - checked de type boolean.
+     - id de type number,
+     - name de type String,
+     - price de type number,
+     - checked de type boolean.
 4. Définir le fichier 'data/db.json' pour le stockage des données.
 5. Créer les composants suivants : 
-       - Home => `ng g c home`,
-       - new-product => `ng g c new-product`,
-       - products => `ng g c products`.
+     - Home => `ng g c home`,
+     - new-product => `ng g c new-product`,
+     - products => `ng g c products`.
 6. Créer le service 'services/product' => `ng g s services/product`.
 7. Définir quelques opérations de gestion des produits :
     - Consulter tous les produits avec pagination,
@@ -24,9 +24,11 @@ Le but de cette activite est de reprendre l'exemple de la démo pour maitriser l
     - Supprimer un produit,
     - La possibilité de changer la valeur booleanne de l'attribut 'checked' avec un bouton.
 
-Vidéo à utiliser comme ressource principale : https://www.youtube.com/watch?v=1uTIemRcZWM&authuser=0
+=> Vidéo à utiliser comme ressource principale : https://www.youtube.com/watch?v=1uTIemRcZWM&authuser=0
 
 ### Présentation d'Angular ### 
+
+![angular-3-logo](https://github.com/Ikramouslih/JEE-Activite-6/assets/60039200/ebef6263-bf31-4059-96b0-1e8b83434e09)
 
 Angular est un framework JavaScript open-source basé sur TypeScript. Il permet de construire des applications web dynamiques, single-page (SPA) et multiplateformes. Il offre un ensemble complet d'outils et de fonctionnalités pour simplifier le processus de développement et améliorer l'expérience utilisateur.
 
@@ -43,8 +45,9 @@ Principales caractéristiques et avantages d'Angular :
 
 Ce projet a été généré avec [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
 
-- Bootstrap & Bootstrap-icons : `npm i bootstrap bootstrap-icon`
+- Bootstrap & Bootstrap-icons : 
 Une bibliothèque open-source de développement front-end pour la conception de sites et d'applications web. Elle fournit des styles CSS prédéfinis, des composants JavaScript et des icônes pour faciliter la création d'interfaces utilisateur esthétiques et responsives.
+    * Installation : `npm i bootstrap bootstrap-icon`
 - Json-server : 
 JSON Server est un outil simple et léger permettant de créer rapidement une fausse API RESTful en utilisant un fichier JSON comme source de données. Il fournit un serveur web minimaliste qui expose les données JSON comme des endpoints REST.
     * Installation : `npm install -g json-server`
@@ -54,24 +57,31 @@ JSON Server est un outil simple et léger permettant de créer rapidement une fa
 
 - La liste des produits et la pagination: 
 
+<img width="960" alt="Screenshot (14)" src="https://github.com/Ikramouslih/JEE-Activite-6/assets/60039200/83552ed4-f41c-4b26-ac34-a44d69dd4123">
 
+- La possibilité de changer la valeur booléeanne de l'attribut 'checked' avec un bouton.
 
-- La possibilité de changer la valeur booleanne de l'attribut 'checked' avec un bouton.
+<img width="960" alt="Screenshot (3)" src="https://github.com/Ikramouslih/JEE-Activite-6/assets/60039200/5b2e8a0e-b4a0-4628-acb3-8f00cd6fcd58">
 
-
+<img width="960" alt="Screenshot (4)" src="https://github.com/Ikramouslih/JEE-Activite-6/assets/60039200/203a3f9d-b2ce-474f-a76c-a9b4e1d76467">
 
 - La recherche d'un produit selon un mot clé : 
 
-
+<img width="960" alt="Screenshot (13)" src="https://github.com/Ikramouslih/JEE-Activite-6/assets/60039200/5429d389-8bc8-4863-91e1-e7e49d6a5706">
 
 - Le formulaire d'ajout d'un produit :
 
+<img width="960" alt="Screenshot (10)" src="https://github.com/Ikramouslih/JEE-Activite-6/assets/60039200/3eb322ef-15e5-4637-9e30-81a35674a817">
 
+<img width="960" alt="Screenshot (11)" src="https://github.com/Ikramouslih/JEE-Activite-6/assets/60039200/801da4a0-fe46-4394-8064-b233c6b99416">
+
+<img width="960" alt="Screenshot (12)" src="https://github.com/Ikramouslih/JEE-Activite-6/assets/60039200/4bc34a1b-c729-4529-8e62-596a5afcf682">
 
 - La suppression d'un produit : 
 
+<img width="960" alt="Screenshot (8)" src="https://github.com/Ikramouslih/JEE-Activite-6/assets/60039200/da761da7-d455-46eb-8a5b-2ef54131306b">
 
-
+<img width="960" alt="Screenshot (9)" src="https://github.com/Ikramouslih/JEE-Activite-6/assets/60039200/00b4dc7b-f809-408a-8bff-ab1442fb7ce0">
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
